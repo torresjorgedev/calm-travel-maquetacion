@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Calm Travel</title>
+
+  
+  <link rel="stylesheet" href="css/contact.css">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <h1>calm travel</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinations.html">Destinos recomendados</a></li>
+      <li><a href="services.html">Servicios</a></li>
+      <!-- <li><a href="contacto.html">Contacto</a></li> -->
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="formulario-contacto">
+    <h2>Contáctanos</h2>
+    
+    <form action="#" method="post">
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Ej: usuario@mail.com" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Ej: +54 9 341 1234567">
+
+      <label for="motivo">Motivo de contacto:</label>
+      <select id="motivo" name="motivo" required>
+        <option value="">-- Selecciona una opción --</option>
+        <option value="consulta">Consulta</option>
+        <option value="reserva">Reserva de viaje</option>
+        <option value="reclamo">Reclamo</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu consulta o comentario aquí..."></textarea>
+
+      <div class="botones-formulario">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+      </div>
+
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Calm Travel. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
