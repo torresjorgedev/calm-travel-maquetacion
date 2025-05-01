@@ -39,6 +39,11 @@ nav ul li {
   font-family: "Open Sans", sans-serif;
 }
 
+nav ul li i {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
 a {
   text-decoration: none;
   color: #014e47;
